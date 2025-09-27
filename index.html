@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <!-- INPUTS
+     Total bill amount (input number)
+     Tip rate in % (select box 5% 10% 15% 20%)
+     Number of people -->
+     <main >
+        <label hidden id="lbl_inp_productSelection">Items:</label>
+        <fieldset id="productSelection">
+            
+            
+        </fieldset>
+        
+<br />
+        <label id="lbl_inp_subTotal" for="inp_subTotal">Subtotal: </label>
+        <input id="inp_subTotal" type="number" />
+
+        
+         <br />       
+        <label for="inp_tip">Tip: </label>
+        <select id="inp_tip">
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select>
+         <br />
+        <label for="inp_people">Number of People:</label>
+        <input id="inp_people" type="number" />
+        <br />
+        <button id="btnCalculate">Calculate</button>
+        <br />
+        <span id="lblAnswer"></span>
+    
+     </main>
+     <script src="./bill_splitter_Script.js" ></script>
+</head>
+<body>
+    
+</body>
+</html>
