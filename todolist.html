@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>To-Do List</title> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>To-Do List</title> -->
 </head>
+
 <body>
-<main>
+  <main>
     <!-- multiline box? flex? -->
-     <!-- let's use flex and control the elements with js -->
-      <!--  Simple todo list
+    <!-- let's use flex and control the elements with js -->
+    <!--  Simple todo list
      Check things that are done -->
-     <!-- move them off the list.? -->
-      <div id="todos">
-        <div id="userInput">
-        <span>Todo:</span>
-        <input type="text" id="inputTask">
+    <!-- move them off the list.? -->
+    <div id="todosTitle">
+      <div class="task">
+        <input type="text" placeholder="Add a task" id="inputTask">
         <button id="btnAdd">Add</button>
       </div>
-        <h1>To Do:</h1>
-        <div class="task">
-            <span>some task</span> <button>done</button></div>
-        <div class="task">some other task</div>
-      </div>
-      <div id="done">
-        <h2>Done</h2>
-        <div class="task">
-            <span>some task</span> 
-              <button>delete</button>
-        </div>
-      </div>
+      <h1>To Do:</h1>
     </div>
-</main>
-        <link rel="stylesheet" href="./style.css">
-        <script src="./todolist.js"></script>
-        
+    <div id="todos">
+    </div>
+    <div id="doneTitle">
+      <h2>Done</h2>
+    </div>
+    
+    <div id="done">
+    </div>
+    </div>
+  </main>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./todolist.js"></script>
+
 </body>
+
 </html>
