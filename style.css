@@ -1,0 +1,44 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+main {
+    
+    height:100vh;
+
+}
+
+#todos {
+    border: 1px solid black;
+    background: palevioletred;
+    flex-grow: 2;
+    padding:5px;
+}
+#done {
+    border: 1px solid black;
+    background: palegreen;
+    flex-grow: 1;
+}
+.task {
+    flex-direction:row;
+    background:white;
+    justify-content: space-between;
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#userInput {
+    flex-grow:0;
+    flex-direction:row;
+}
+
+#userInput input {
+    width:100%;
+    
+}
